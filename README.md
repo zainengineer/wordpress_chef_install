@@ -1,1 +1,1 @@
-this is a simple file
+ knife solo cook username@host --run-list rax-wordpress
