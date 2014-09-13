@@ -16,7 +16,11 @@ site 'https://supermarket.getchef.com/api/v1'
 
 
 cookbook 'rax-mysql-tunables',
- :git => 'https://github.com/zainengineer/rax-mysql-tunables'
+ :git => 'git@github.com:zainengineer/rax-mysql-tunables.git'
 
 cookbook 'rax-wordpress',
-   :git => 'https://github.com/zainengineer/rax-wordpress-cookbook'
+   :git => 'git@github.com:zainengineer/rax-wordpress-cookbook.git'
+
+cookbook 'vsftpd',
+   :git => 'git@github.com:TheSerapher/chef-vsftpd.git'
+
